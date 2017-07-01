@@ -2,7 +2,7 @@
 ![Logo](http://omkx1cfwq.bkt.clouddn.com/BANNERHOLDER-LOGO.png)
 ---
 [![API](https://img.shields.io/badge/API-15%2B-blue.svg)](https://android-arsenal.com/api?level=15#l15)
-[![release](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)]()
+[![release](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)](https://github.com/Militch/banner-holder/releases)
 [![LICENSE](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Militch/banner-holder/blob/master/LICENSE)
 
 这是一个Android **轻量级图片轮播控件**，常见使用于Banner广告栏。
