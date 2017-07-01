@@ -6,9 +6,12 @@
 [![LICENSE](https://img.shields.io/hexpm/l/plug.svg)](http://git.oschina.net/litch/BannerHolder/blob/master/LICENSE)
 
 这是一个Android **轻量级图片轮播控件**，常见使用于Banner广告栏。
+
 **支持无限循环轮播，可自定义指示器样式，图片异步加载等。**
+
 ***效果预览图：***
-![预览图](...)
+
+![预览图](http://omkx1cfwq.bkt.clouddn.com/banner-holder-preview.png)
 
 ## 使用
 ```xml
@@ -17,7 +20,8 @@
     android:layout_height="150dp"
     app:indicatorResId="@drawable/banner_holder_selector"/>
 ```
-***[更详细的使用文档请参考WIKI](...)***
+
+***[更详细的使用文档请参考WIKI](https://github.com/Militch/banner-holder/wiki)***
 
 ## 版本说明
 * **1.0.0**
