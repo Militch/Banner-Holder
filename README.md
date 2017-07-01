@@ -3,7 +3,7 @@
 ---
 [![API](https://img.shields.io/badge/API-15%2B-blue.svg)](https://android-arsenal.com/api?level=15#l15)
 [![release](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)]()
-[![LICENSE](https://img.shields.io/hexpm/l/plug.svg)](http://git.oschina.net/litch/BannerHolder/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Militch/banner-holder/blob/master/LICENSE)
 
 这是一个Android **轻量级图片轮播控件**，常见使用于Banner广告栏。
 
@@ -12,6 +12,28 @@
 ***效果预览图：***
 
 ![预览图](http://omkx1cfwq.bkt.clouddn.com/banner-holder-preview.png)
+
+## 接入
+* Maven配置信息
+
+```xml
+<dependency>
+  <groupId>me.militch.widget</groupId>
+  <artifactId>banner-holder</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+* Gradle 配置
+
+在`build.gradle`中添加依赖：
+
+```
+dependencies {
+    compile 'me.militch.widget:banner-holder:1.0.0'
+}
+```
 
 ## 使用
 ```xml
