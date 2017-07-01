@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        app:switchDuration=切换Banner的持续时间（单位：毫秒），默认为500
+        app:looperTime="1000"=轮播切换Banner的间隔时间（单位：毫秒），默认为1000
+        app:isAutoLooper="true" 开启自动轮播，默认为fase
+        app:isBackgroup="true" 设置图片以Backgroup显示，默认为true
+    -->
+    <me.militch.widget.bannerholder.BannerHolderView
+        android:id="@+id/banner_holder"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:isAutoLooper="true"
+        app:indicatorResId="@drawable/banner_holder_selector"/>
+</LinearLayout>
